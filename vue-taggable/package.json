@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RashiqulRony/vue-laravel-paginate"
+    "url": "https://github.com/RashiqulRony/Vue-Taggable"
   },
 
   "devDependencies": {
