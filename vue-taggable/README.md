@@ -1,17 +1,38 @@
 # Vue Taggable
 
+### This is input taggable
+
 <p align="center">
 <img style="width: 100%" src="https://raw.githubusercontent.com/RashiqulRony/rony.mmj/master/ezgif.com-gif-maker.gif" alt="download" border="0" />
 </p>
 
-## Installation
-
-## Usage
-
-```html
-<InputTag v-model="tags"/>
+### Install Package
+```
+npm install vue-taggable
 ```
 
+### Import Package
+```javascript
+import VueTaggable from "vue-taggable";
+```
+
+
+## Usage
+```html
+<VueTaggable v-model="tags"/>
+```
+
+```javascript
+components: {
+    VueTaggable
+},
+
+data() {
+    return {
+        tags: []
+    }
+},
+```
 ## Props
 | Name | Type | Default | Description |
 | ---:| --- | ---| --- |
@@ -30,3 +51,9 @@
 | ---: | --- | --- |
 | input | Array with tags | Emitted when a tag is added (after successful validation) and when a tag is removed |
 | update:tags | Array with tags | Same as input event |
+
+
+###  Author Info
+**Name:** Rashiqul Rony <br>
+**Github**: https://github.com/RashiqulRony
+
